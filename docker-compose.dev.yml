@@ -1,0 +1,11 @@
+services:
+  application:
+    image: 'mcr.microsoft.com/devcontainers/javascript-node:latest'
+    volumes:
+      - '.:/workspaces/oofivem'
+    networks:
+      - oofivem.application
+    restart: always
+networks:
+  oofivem.application:
+    driver: bridge

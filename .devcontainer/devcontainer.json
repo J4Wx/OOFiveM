@@ -1,0 +1,16 @@
+{
+    "name": "OOFiveM",
+    "dockerComposeFile": [
+        "../docker-compose.dev.yml"
+    ],
+    "service": "application",
+    "workspaceFolder": "/workspaces/oofivem",
+    "overrideCommand": true,
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "maptz.regionfolder"
+            ]
+        }
+    }
+}
