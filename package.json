@@ -1,4 +1,7 @@
 {
+  "name": "oofivem",
+  "description": "Object Oriented FiveM in JavaScript",
+  "license": "GPL-3.0-only",
   "devDependencies": {
     "@citizenfx/client": "^2.0.8552-1",
     "@citizenfx/server": "^2.0.8552-1",

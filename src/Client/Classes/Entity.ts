@@ -61,4 +61,14 @@ export default class Entity {
         SetEntityHeading(this.id, heading);
     }
     /* #endregion */
+
+    /* #region(collapsed) Health */
+    public get health() {
+        return GetEntityHealth(this.id);
+    }
+
+    public set health(amount: number) {
+        SetEntityHealth(this.id, amount);
+    }
+    /* #endregion */
 }
